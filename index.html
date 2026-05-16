@@ -1,0 +1,968 @@
+<!--
+========================================================================
+TALEX PROSPECT STRATEGY DOC — TEMPLATE: CEO / FOUNDER
+========================================================================
+This is one of THREE templates. Pick the one that matches the prospect:
+
+  - cmo.html      → contact is a CMO / marketing leader. Focus stays on
+                    the COMPANY and its CLIENTS. No personal brand.
+  - ceo.html      → contact is a CEO / founder. A little personal brand is
+                    fine — the founder can be an on-camera subject and the
+                    recurring guide. (THIS FILE.)
+  - agency-partnership.html → prospect is itself an agency / production
+                    shop. Partnership framing: "one production shop to
+                    another," Talex could co-produce for them and their
+                    clients.
+
+HOW TO USE THIS TEMPLATE
+  1. Copy this file to prospects/{slug}/index.html
+  2. Do the research (see RESEARCH_TEMPLATE.md). Fill research.md first.
+  3. Rewrite every section marked < REWRITE PER PROSPECT >. Leave every
+     section marked < LOCKED > exactly as it is, except the simple swaps.
+  4. Simple global swaps: brand name, contact first name, logo, dates,
+     URLs, the <title>.
+  5. Run the pre-Tom gate, IN ORDER (see WORKFLOW.md Step 5a-5d and the
+     audit_prelaunch_checks memory rule):
+        GATE 1 — FACT CHECK. Every claim traces to a re-fetched source.
+                 Anything ambiguous: STOP and ask the user.
+        GATE 2 — LANGUAGE & COMMUNICATION CHECK. Only after fact check is
+                 clean. Plain speech: no weird metaphors, do not overuse
+                 short sentences, say things plainly and not cleverly.
+                 Every video idea is audience-first.
+
+CEO-SPECIFIC RULES (what makes this the CEO / founder template)
+  - A LITTLE personal brand is welcome. The founder can be an on-camera
+    subject and the recurring strategic guide across the concepts.
+  - A personal LinkedIn card for the founder DOES belong in the channel
+    grid, alongside the company channels.
+  - The callout quote CAN be the founder's own quote.
+  - The Reel can include founder-voice cards (a founder reel, the founder's
+    LinkedIn About in their own words).
+  - The company and its CLIENTS still come first. Even on the CEO
+    template, idea 01 should lead with a client or the audience, with the
+    founder as the guide — not a film whose only subject is the founder.
+  - The worked example below is the live ChangeMakers strategy doc (a
+    reputation and strategy firm, CEO contact Mario Simon), cleaned to the
+    plain-speech rule. It is shown complete so you can see the voice and
+    depth each section needs. Replace ALL of it.
+========================================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<!-- LOCKED — swap only {{BRAND}} in the title -->
+<title>Travel and Tour World · A Custom Strategy · Talex Media</title>
+<link rel="icon" type="image/png" sizes="192x192" href="https://static.wixstatic.com/media/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png/v1/fill/w_192,h_192,lg_1,usm_0.66_1.00_0.01/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png"/>
+<link rel="shortcut icon" href="https://static.wixstatic.com/media/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png/v1/fill/w_32,h_32,lg_1,usm_0.66_1.00_0.01/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png" type="image/png"/>
+<link rel="apple-touch-icon" href="https://static.wixstatic.com/media/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png/v1/fill/w_180,h_180,lg_1,usm_0.66_1.00_0.01/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600&family=EB+Garamond:ital,wght@0,400;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+<!-- LOCKED — the entire <style> block. Do not edit. -->
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --o:#E85A0C;
+  --o-dim:rgba(232,90,12,0.08);
+  --o-mid:rgba(232,90,12,0.18);
+  --o-border:rgba(232,90,12,0.28);
+  --bg:#F5F2EC;
+  --surface:#FFFFFF;
+  --surface2:#FAF8F5;
+  --border:#E2DDD6;
+  --border-strong:#C8C2BA;
+  --txt:#1A1816;
+  --txt2:#6B625A;
+  --txt3:#A89E96;
+  --green:#2D8C52;
+  --green-bg:#EDF7F2;
+  --green-border:#A8D9BC;
+  --red:#C0392B;
+  --red-bg:#FDF0EE;
+  --red-border:#E8BEBC;
+  --amber:#B07D10;
+  --amber-bg:#FDF7EC;
+  --amber-border:#E0C880;
+}
+
+html{background:var(--bg);color:var(--txt);font-family:'DM Sans',system-ui,sans-serif;font-size:15px;line-height:1.6}
+body{background:var(--bg);min-height:100vh}
+#wrap{max-width:700px;margin:0 auto;padding:0 1.25rem 5rem}
+
+.disp{font-family:'Bebas Neue',sans-serif;letter-spacing:0.04em;line-height:1}
+.head{font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:0.02em;line-height:1.1}
+.lbl{font-family:'Oswald',sans-serif;font-weight:500;font-size:11px;letter-spacing:0.14em;text-transform:uppercase}
+.italic{font-family:'EB Garamond',Georgia,serif;font-style:italic}
+
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:1rem 0;border-bottom:1px solid var(--border)}
+.topbar-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.topbar-logo{height:28px;width:auto}
+.topbar-name{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:0.08em;color:var(--txt)}
+.topbar-right{display:flex;align-items:center;gap:12px}
+.topbar-cta{background:var(--o);color:#fff;font-family:'Oswald',sans-serif;font-weight:600;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;padding:8px 14px;border-radius:6px;text-decoration:none;transition:background 0.15s}
+.topbar-cta:hover{background:#c94d08}
+
+.hero{padding:3rem 0 2.5rem;border-bottom:2px solid var(--o)}
+.hero-step{display:flex;align-items:center;gap:10px;margin-bottom:1.25rem;flex-wrap:wrap}
+.step-pill{background:var(--o);color:#fff;font-family:'Oswald',sans-serif;font-weight:600;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;padding:3px 10px;border-radius:3px}
+.hero-eyebrow{font-family:'Oswald',sans-serif;font-size:12px;font-weight:400;letter-spacing:0.1em;text-transform:uppercase;color:var(--txt2)}
+.hero-title{font-size:clamp(40px,8vw,66px);color:var(--txt);margin-bottom:0.5rem}
+.hero-tagline{font-size:clamp(19px,3.5vw,26px);color:var(--o);margin-bottom:1rem}
+
+.stat-strip{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--border);border-radius:8px;background:var(--surface);overflow:hidden;margin:2rem 0}
+.stat-cell{padding:1rem;text-align:center;border-right:1px solid var(--border)}
+.stat-cell:last-child{border-right:none}
+.stat-num{font-family:'Bebas Neue',sans-serif;font-size:34px;letter-spacing:0.04em;color:var(--o)}
+.stat-label{font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--txt3);font-family:'Oswald',sans-serif;font-weight:400}
+
+.source-link{font-size:11px;color:var(--txt3);text-decoration:none;border-bottom:1px dotted var(--border-strong);transition:color 0.15s,border-color 0.15s;white-space:nowrap;margin-left:4px;font-family:'Oswald',sans-serif;letter-spacing:0.04em;position:relative;z-index:2}
+.source-link:hover{color:var(--o);border-bottom-color:var(--o)}
+.source-link::before{content:"↗ "}
+
+.callout{border-left:3px solid var(--o);padding:1rem 1.25rem;background:var(--surface);border-radius:0 8px 8px 0;margin:1.75rem 0}
+.callout p{font-family:'EB Garamond',Georgia,serif;font-style:italic;font-size:16px;color:var(--txt);line-height:1.75}
+.callout-attr{margin-top:0.6rem;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--o);font-family:'Oswald',sans-serif;font-weight:500}
+.callout-attr a{color:inherit;border-bottom:1px dotted var(--border-strong);text-decoration:none;transition:color 0.15s,border-color 0.15s}
+.callout-attr a:hover{color:var(--o);border-bottom-color:var(--o)}
+
+.section-intro{margin-bottom:1.25rem}
+.section-intro-row{display:flex;align-items:center;gap:8px;margin-bottom:0.4rem}
+.sec-pill-dark{background:var(--txt);color:#fff;font-family:'Oswald',sans-serif;font-weight:600;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;padding:3px 10px;border-radius:3px}
+.sec-pill-orange{background:var(--o);color:#fff;font-family:'Oswald',sans-serif;font-weight:600;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;padding:3px 10px;border-radius:3px}
+.section-eyebrow{font-family:'Oswald',sans-serif;font-size:11px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:var(--txt3)}
+.section-title{font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:0.02em;line-height:1.1;font-size:22px;color:var(--txt);margin-bottom:0.25rem}
+.section-subtitle{font-size:13px;color:var(--txt3);font-style:italic;font-family:'EB Garamond',Georgia,serif}
+
+.section-block{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin-bottom:1rem}
+.section-block p{font-size:14px;color:var(--txt2);line-height:1.8;margin-bottom:0.9rem}
+.section-block p:last-child{margin-bottom:0}
+.section-block strong{color:var(--txt);font-weight:500}
+.section-block em{font-family:'EB Garamond',Georgia,serif;font-style:italic;color:var(--txt)}
+.section-block a{color:var(--txt2);text-decoration:none;border-bottom:1px dotted var(--border-strong);transition:color 0.15s,border-color 0.15s}
+.section-block a:hover{color:var(--o);border-bottom-color:var(--o)}
+
+.rule{height:1px;background:var(--border);border:none;margin:1.5rem 0}
+.rule-orange{height:2px;background:var(--o);border:none;margin:2.5rem 0}
+
+.ideas-grid{display:flex;flex-direction:column;gap:0.75rem;margin-top:1rem}
+.idea-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.1rem 1.3rem;display:flex;gap:1.1rem;align-items:flex-start}
+.idea-card-featured{background:rgba(232,90,12,0.05);border-color:var(--o)}
+.idea-num{flex-shrink:0;width:36px;height:36px;background:var(--o);color:#fff;font-family:'Bebas Neue',sans-serif;font-size:18px;display:flex;align-items:center;justify-content:center;border-radius:6px;margin-top:2px;letter-spacing:0.04em}
+.idea-body{flex:1;min-width:0}
+.idea-title{font-family:'Oswald',sans-serif;font-weight:600;font-size:15px;color:var(--txt);letter-spacing:0.02em;margin-bottom:6px;line-height:1.35}
+.idea-desc{font-size:13.5px;color:var(--txt2);line-height:1.7}
+.idea-desc em{font-family:'EB Garamond',Georgia,serif;font-style:italic;color:var(--txt)}
+.idea-tag{margin-top:10px;font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:0.12em;color:var(--o);text-transform:uppercase;font-weight:600}
+.idea-tag a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--o)}
+.idea-tag a:hover{border-bottom-style:solid}
+
+.reel-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:0.5rem}
+@media(max-width:560px){.reel-grid{grid-template-columns:1fr}}
+.reel-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:0.95rem 1.05rem;display:flex;flex-direction:column}
+.reel-eyebrow{font-family:'Oswald',sans-serif;font-size:9.5px;letter-spacing:0.16em;color:var(--o);text-transform:uppercase;font-weight:600;margin-bottom:0.4rem}
+.reel-title{font-family:'Oswald',sans-serif;font-weight:600;font-size:13.5px;color:var(--txt);letter-spacing:0.03em;margin-bottom:0.45rem;line-height:1.3}
+.reel-body{font-size:12.5px;color:var(--txt2);line-height:1.6;flex:1;margin-bottom:0.5rem}
+.reel-body em{font-family:'EB Garamond',Georgia,serif;font-style:italic;color:var(--txt)}
+.reel-body a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--border-strong);transition:color 0.15s,border-color 0.15s}
+.reel-body a:hover{color:var(--o);border-bottom-color:var(--o)}
+
+.whats-inside{margin:0.5rem 0 1rem}
+.wi-heading{font-family:'Oswald',sans-serif;font-weight:600;font-size:18px;color:var(--txt);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:1rem;text-align:center}
+.whats-inside-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media(max-width:560px){.whats-inside-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:380px){.whats-inside-grid{grid-template-columns:1fr}}
+.wi-card{display:block;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:0.95rem 1rem;text-decoration:none;color:inherit;transition:border-color 0.15s,background 0.15s}
+.wi-card:hover{border-color:var(--o);background:#FCFAF7}
+.wi-num{font-family:'Bebas Neue',sans-serif;font-size:30px;color:var(--o);line-height:1;letter-spacing:0.04em;margin-bottom:8px}
+.wi-title{font-family:'Oswald',sans-serif;font-weight:600;font-size:13px;color:var(--txt);letter-spacing:0.04em;margin-bottom:5px;line-height:1.3;text-transform:uppercase}
+.wi-desc{font-size:12.5px;color:var(--txt2);line-height:1.55}
+
+.case-card{background:var(--txt);border-radius:12px;padding:1.5rem 1.5rem 1.75rem;margin-bottom:1rem;color:#fff;overflow:hidden}
+.cs-label{font-family:'Oswald',sans-serif;font-weight:500;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--o);margin-bottom:0.5rem}
+.cs-name{font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,5vw,42px);letter-spacing:0.03em;line-height:1;color:#fff;margin-bottom:1.1rem}
+.cs-stat-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:1.25rem}
+.cs-stat-cell{background:rgba(255,255,255,0.04);border-top:2px solid var(--o);padding:0.75rem 0.6rem 0.65rem}
+.cs-stat-num{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:0.03em;color:var(--o);line-height:1.05}
+.cs-stat-label{font-size:10px;color:rgba(255,255,255,0.55);line-height:1.35;margin-top:2px}
+.cs-section{border-left:3px solid var(--o);padding:0.5rem 0 0.5rem 0.85rem;margin-bottom:0.9rem}
+.cs-section:last-child{margin-bottom:0}
+.cs-section-label{font-family:'Oswald',sans-serif;font-weight:600;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--o);margin-bottom:0.35rem}
+.cs-section-body{font-size:13px;color:rgba(255,255,255,0.78);line-height:1.7}
+.cs-footer-meta{margin-top:1.1rem;padding-top:0.9rem;border-top:1px solid rgba(255,255,255,0.1);font-size:11px;color:rgba(255,255,255,0.45);font-family:'Oswald',sans-serif;letter-spacing:0.06em;text-align:center}
+
+.cred-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:1.25rem}
+.cred-chip{padding:6px 12px;border:1px solid var(--o-border);background:var(--o-dim);border-radius:4px;font-family:'Oswald',sans-serif;font-weight:500;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--o)}
+
+.byline{display:flex;gap:14px;align-items:center;padding:1rem 1.25rem;background:var(--surface);border:1px solid var(--border);border-radius:10px;margin:1.5rem 0}
+.byline-avatar{width:60px;height:60px;border-radius:50%;overflow:hidden;background:var(--o-dim);border:2px solid var(--o);display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--o);flex-shrink:0}
+.byline-avatar img{width:100%;height:100%;object-fit:cover;display:block}
+.byline-body{flex:1;min-width:0}
+.byline-name{font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;color:var(--txt);letter-spacing:0.03em}
+.byline-sub{font-size:12px;color:var(--txt2);line-height:1.5;margin-top:2px}
+
+.brand-mark-row{display:flex;align-items:center;gap:14px;margin-bottom:1.25rem;flex-wrap:wrap}
+.brand-logo-wrap{width:56px;height:56px;border-radius:10px;background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;overflow:hidden;padding:6px;flex-shrink:0}
+.brand-logo-wrap img{max-width:100%;max-height:100%;object-fit:contain}
+.brand-logo-fallback{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:0.04em;color:var(--o);line-height:1}
+
+.channel-grid{display:grid;grid-template-columns:1fr;gap:6px;margin-bottom:1rem}
+.channel-card{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:0.7rem 0.95rem;display:flex;gap:12px;align-items:flex-start;transition:border-color 0.15s,background 0.15s}
+.channel-card:hover{border-color:var(--o);background:#FCFAF7}
+.channel-card.channel-gap{border-style:dashed;background:var(--surface2)}
+.channel-link{position:absolute;inset:0;z-index:1;border-radius:8px}
+.channel-link:focus-visible{outline:2px solid var(--o);outline-offset:2px}
+.channel-icon{width:18px;height:18px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:3px}
+.channel-icon svg{width:18px;height:18px;display:block}
+.channel-icon.linkedin svg{fill:#0A66C2}
+.channel-icon.youtube svg{fill:#FF0000}
+.channel-icon.facebook svg{fill:#1877F2}
+.channel-icon.instagram svg{fill:#E4405F}
+.channel-icon.twitter svg{fill:#000}
+.channel-icon.tiktok svg{fill:#000}
+.channel-icon.spotify svg{fill:#1DB954}
+.channel-icon.applepodcasts svg{fill:#832BC1}
+.channel-icon.podcast svg{fill:#832BC1}
+.channel-icon.threads svg{fill:#000}
+.channel-icon.substack svg{fill:#FF6719}
+.channel-icon.blog svg{fill:var(--txt2)}
+.channel-icon.website svg{fill:var(--txt)}
+.channel-icon.books svg{fill:var(--o)}
+.channel-icon.vimeo svg{fill:#1AB7EA}
+.channel-handle a,.channel-snippet a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--border-strong);transition:color 0.15s,border-color 0.15s}
+.channel-handle a:hover,.channel-snippet a:hover{color:var(--o);border-bottom-color:var(--o)}
+.channel-body{flex:1;min-width:0}
+.channel-head{display:flex;align-items:baseline;gap:8px;margin-bottom:2px;flex-wrap:wrap}
+.channel-name{font-family:'Oswald',sans-serif;font-weight:600;font-size:12px;color:var(--txt);letter-spacing:0.06em;text-transform:uppercase}
+.channel-handle{font-size:11px;color:var(--txt3);font-family:'Oswald',sans-serif;letter-spacing:0.04em}
+.channel-snippet{font-size:13px;color:var(--txt2);line-height:1.55}
+.channel-snippet em{font-family:'EB Garamond',Georgia,serif;font-style:italic;color:var(--txt)}
+.channel-snippet ul{list-style:none;padding:0;margin:0 0 6px 0}
+.channel-snippet ul li{position:relative;padding-left:14px;margin-bottom:3px}
+.channel-snippet ul li::before{content:"·";position:absolute;left:4px;top:-2px;color:var(--o);font-weight:700;font-size:16px;line-height:1}
+.channel-snippet ul li:last-child{margin-bottom:0}
+.channel-gap .channel-snippet ul li::before{color:var(--txt3)}
+
+.cta-block{background:var(--txt);border-radius:12px;padding:2.25rem 1.75rem;margin-top:2rem;text-align:center}
+.cta-eyebrow{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(232,90,12,0.9);font-family:'Oswald',sans-serif;font-weight:500;margin-bottom:0.75rem}
+.cta-headline{font-size:clamp(28px,5vw,44px);color:#fff;margin-bottom:0.6rem}
+.cta-sub{font-size:13.5px;color:rgba(255,255,255,0.65);line-height:1.75;max-width:480px;margin:0 auto 1.75rem}
+.cta-primary{display:inline-block;background:var(--o);color:#fff;padding:14px 30px;border-radius:8px;font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;transition:background 0.15s,transform 0.1s}
+.cta-primary:hover{background:#c94d08}
+.cta-primary:active{transform:scale(0.98)}
+.cta-reply{margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid rgba(255,255,255,0.08);font-size:13px;color:rgba(255,255,255,0.55);font-family:'EB Garamond',Georgia,serif;font-style:italic;line-height:1.6}
+
+.faq-item{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1rem 1.25rem;margin-bottom:8px}
+.faq-q{font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;color:var(--txt);margin-bottom:6px;letter-spacing:0.02em}
+.faq-a{font-size:13px;color:var(--txt2);line-height:1.7}
+
+.site-footer{margin-top:3rem;padding:1.5rem 0 1rem;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.footer-brand{font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:0.08em;color:var(--txt2)}
+.footer-links{display:flex;gap:1.25rem;flex-wrap:wrap}
+.footer-links a{font-size:12px;color:var(--txt3);text-decoration:none;letter-spacing:0.06em;font-family:'Oswald',sans-serif;text-transform:uppercase}
+.footer-links a:hover{color:var(--o)}
+.footer-copy{font-size:11px;color:var(--txt3);width:100%}
+
+@media print{
+  body{background:#fff}
+  .topbar-cta,.cta-primary{display:none}
+}
+</style>
+</head>
+<body>
+<div id="wrap">
+
+  <!-- LOCKED — topbar. Do not edit. -->
+  <nav class="topbar">
+    <a class="topbar-brand" href="https://www.talexmedia.com" target="_blank">
+      <img class="topbar-logo"
+        src="https://static.wixstatic.com/media/3c6878_456d81e9cdb84e6c8bb3260ebfcc0523~mv2.png"
+        alt="Talex Media"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='inline'"
+      />
+      <span class="topbar-name" style="display:none">TALEX MEDIA</span>
+    </a>
+    <div class="topbar-right">
+      <a class="topbar-cta" href="https://calendly.com/d/ct7b-xvd-c9x/intro-call" target="_blank" rel="noopener">Book a Call</a>
+    </div>
+  </nav>
+
+  <!--
+    REWRITE PER PROSPECT — hero.
+      - brand-logo-wrap: set src to assets/logo.{ext}. If the logo is white
+        or light, keep style="background:#1A1816"; if dark, remove that style.
+        Set the fallback initials.
+      - step-pill: "A Custom Strategy For {{BRAND}}"
+      - hero-eyebrow: "{{CONTACT_FIRST}} {{CONTACT_LAST}} · Prepared {{MONTH YEAR}}"
+      - hero-title: LOCKED — always "A Custom Look / At Your Video Content Presence"
+      - hero-tagline: one plain sentence on who the brand is + one on what the
+        audit is. No metaphors. Cold-read test: a reader who has not seen the
+        channels should understand it.
+  -->
+  <header class="hero">
+    <div class="brand-mark-row">
+      <div class="brand-logo-wrap">
+        <img src="assets/logo.png" alt="Travel and Tour World logo"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='inline'" />
+        <span class="brand-logo-fallback" style="display:none">TTW</span>
+      </div>
+      <div class="hero-step" style="margin-bottom:0">
+        <div class="step-pill">A Custom Strategy For Travel and Tour World</div>
+        <span class="hero-eyebrow">Anup Kumar Keshan · Prepared May 2026</span>
+      </div>
+    </div>
+    <h1 class="disp hero-title">A Custom Look<br/>At Your Video Content Presence</h1>
+    <div class="italic hero-tagline">Travel and Tour World is a B2B travel news platform out of Kolkata that reaches more than 15 million readers across 104 regional editions and partners with over 1,200 international travel events. The audit is a short note from a documentary shop on what long-form film would add to how TTW shows up.</div>
+  </header>
+
+  <!--
+    REWRITE PER PROSPECT — stat strip. Three numbers that frame the company.
+    All three fact-checked against a re-fetched source. Plain labels.
+  -->
+  <div class="stat-strip">
+    <div class="stat-cell">
+      <div class="stat-num">15M+</div>
+      <div class="stat-label">Readers Worldwide</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-num">104</div>
+      <div class="stat-label">Regional Editions</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-num">1,200+</div>
+      <div class="stat-label">Travel Event Partnerships</div>
+    </div>
+  </div>
+
+  <!--
+    REWRITE PER PROSPECT — callout.
+    CEO TEMPLATE: this can be the FOUNDER'S OWN quote, or a company line.
+    Pick a line the rest of the doc can hang off. Verbatim, working source link.
+  -->
+  <div class="callout">
+    <p>"This ranking is both a reflection of traveler sentiment and a roadmap for the global tourism industry."</p>
+    <div class="callout-attr">Anup Kumar Keshan, CEO &amp; Editor-in-Chief · <a href="https://www.travelandtourworld.com/news/article/ttw-reveals-top-50-countries-of-the-world-as-best-travel-destinations-for-2026/" target="_blank" rel="noopener">TTW Top 50 Global Travel Destinations for 2026</a></div>
+  </div>
+
+  <!-- LOCKED — byline. Do not edit. -->
+  <div class="byline">
+    <div class="byline-avatar">
+      <img src="https://static.wixstatic.com/media/3c6878_f5b394fdd9fb45c98fc7e838f91ea231~mv2.jpg" alt="Tom Langan"
+           onerror="this.style.display='none'; this.parentElement.textContent='TL'" />
+    </div>
+    <div class="byline-body">
+      <div class="byline-name">Prepared by Tom Langan · Founder, Talex Media</div>
+      <div class="byline-sub">Author of <em>Legendeering</em></div>
+    </div>
+  </div>
+
+  <!--
+    OPENING — mixed.
+      - Paragraph 1: REWRITE the channel list and closing clause to fit the
+        prospect. Keep the shape: "{{FIRST}}, I'm Tom Langan. I had a look at
+        what {{BRAND}} has been putting into the world [context], and wanted
+        to send a short note from a production shop to a [what they are]."
+      - Paragraphs 2 and 3: LOCKED verbatim. Paragraph 3 stays bolded.
+      - Paragraph 4: first part LOCKED verbatim (through "...if we were
+        working together."). REWRITE only the final two sentences. Keep the
+        closing line plain — "Talex would just add the long-form video." No
+        "layer," no metaphors.
+  -->
+  <div class="section-block">
+    <p>Anup, I'm Tom Langan. I had a look at what Travel and Tour World has been putting into the world across the site, YouTube, and LinkedIn, and wanted to send a short note from a production shop to a media platform.</p>
+    <p>I've spent 25 years in video and television production as a Director of Photography, Producer, and Showrunner, earning two Emmy nominations and leading multi-million dollar productions for global broadcasters like the BBC, NBCUniversal, and Discovery filming all over the world from the Arctic Circle to sub-Saharan Africa.</p>
+    <p><strong>My job was, and still is, to make video that people actually want to watch.</strong></p>
+    <p>In order to do this (create audience first content that leaves people feeling good about supporting your brand and your mission) we need to always take your broader public footprint into account. What follows here is our honest take on what we saw, and where we'd start if we were working together. TTW is already the editorial authority. Talex would just add the long-form video.</p>
+  </div>
+
+  <!--
+    REWRITE PER PROSPECT — What's Inside grid.
+    Card numbers are fixed (01-05 + FAQ). Update the wi-desc lines and the
+    section-04 wi-title to match the section names you land on below.
+  -->
+  <div class="whats-inside">
+    <h2 class="wi-heading">What's Inside</h2>
+    <div class="whats-inside-grid">
+      <a class="wi-card" href="#sec-reel">
+        <div class="wi-num">01</div>
+        <div class="wi-title">The TTW Reel</div>
+        <div class="wi-desc">A look at what's already in public</div>
+      </a>
+      <a class="wi-card" href="#sec-equity">
+        <div class="wi-num">02</div>
+        <div class="wi-title">The Equity You've Built</div>
+        <div class="wi-desc">Three strengths any new video would build on</div>
+      </a>
+      <a class="wi-card" href="#sec-strategy">
+        <div class="wi-num">03</div>
+        <div class="wi-title">Lead With Value</div>
+        <div class="wi-desc">The Legendeering framework, in one page</div>
+      </a>
+      <a class="wi-card" href="#sec-worlds">
+        <div class="wi-num">04</div>
+        <div class="wi-title">Three Concepts For TTW</div>
+        <div class="wi-desc">Three long-form concepts for the TTW brand</div>
+      </a>
+      <a class="wi-card" href="#sec-films">
+        <div class="wi-num">05</div>
+        <div class="wi-title">Past Talex Films</div>
+        <div class="wi-desc">Three projects across three industries</div>
+      </a>
+      <a class="wi-card" href="#sec-faq">
+        <div class="wi-num">FAQ</div>
+        <div class="wi-title">A Few Questions</div>
+        <div class="wi-desc">What you might be wondering</div>
+      </a>
+    </div>
+  </div>
+
+  <hr class="rule-orange"/>
+
+  <!--
+    REWRITE PER PROSPECT — channel grid.
+      - One card per real public channel. 1-2 short bullets + a source link
+        per card. Never a paragraph (audit_channel_card_format rule).
+      - Order: Website first, YouTube always second, then the rest.
+      - CEO TEMPLATE: a personal LinkedIn card for the FOUNDER belongs here,
+        alongside the company channels (see "LinkedIn (Mario)" below).
+      - A channel the prospect does NOT have is a gap card: add class
+        channel-gap, point the link at a search URL, name the absence and
+        the opportunity. YouTube stays in position 2 even as a gap card.
+      - Every fact fact-checked against a re-fetched source. Plain language.
+  -->
+  <div class="section-intro">
+    <div class="section-intro-row">
+      <span class="sec-pill-orange">✓</span>
+      <span class="section-eyebrow">Where You Show Up</span>
+    </div>
+    <h2 class="section-title">The Channels We Looked At</h2>
+    <p class="section-subtitle">Where Travel and Tour World shows up in public, with a few things that stood out across each surface.</p>
+  </div>
+
+  <div class="channel-grid">
+
+    <div class="channel-card">
+      <a class="channel-link" href="https://www.travelandtourworld.com/" target="_blank" rel="noopener" aria-label="Visit Travel and Tour World website"></a>
+      <div class="channel-icon website">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+      </div>
+      <div class="channel-body">
+        <div class="channel-head">
+          <span class="channel-name">Website</span>
+          <span class="channel-handle">travelandtourworld.com</span>
+        </div>
+        <div class="channel-snippet">
+          <ul>
+            <li>Positioning: <em>"Global Travel News and B2B Integrated Media Platform."</em> The About page calls TTW the <em>"Voice of travel and the people behind it,"</em> built on more than 15 million readers, 104 regional editions, and partnerships with more than 1,200 international travel events.</li>
+            <li>The homepage publishes new news pieces every day across travel, tourism, airline, cruise, hotel, MICE, and tech. It also embeds a Videos grid that pulls in the latest six YouTube uploads, so any video that appears on the homepage came from the YouTube channel.</li>
+          </ul>
+          <a class="source-link" href="https://www.travelandtourworld.com/about-us/" target="_blank" rel="noopener">about-us</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="channel-card">
+      <a class="channel-link" href="https://www.youtube.com/@TravelAndTourWorld" target="_blank" rel="noopener" aria-label="Visit Travel and Tour World on YouTube"></a>
+      <div class="channel-icon youtube">
+        <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      </div>
+      <div class="channel-body">
+        <div class="channel-head">
+          <span class="channel-name">YouTube</span>
+          <span class="channel-handle">@TravelAndTourWorld</span>
+        </div>
+        <div class="channel-snippet">
+          <ul>
+            <li>19.2K subscribers, 1.9K videos, on the platform since July 2011. The cadence is now around three uploads a day: 30 videos went up in the last 11 days. The format is consistent: a two- to seven-minute talking-head interview with a named industry figure, with titles like <em>"Why 30,000 Tourists Are Flooding Pattaya's Marina Every Month."</em></li>
+            <li>The per-video reach is the gap. Recent uploads carry 22 to 107 views each, on a channel of 19.2K subscribers. The output is enormous and the editorial access is real, but the format is not earning the watch time the work deserves.</li>
+          </ul>
+          <a class="source-link" href="https://www.youtube.com/@TravelAndTourWorld/videos" target="_blank" rel="noopener">youtube.com</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CEO TEMPLATE: personal LinkedIn card for the founder. -->
+    <div class="channel-card">
+      <a class="channel-link" href="https://www.linkedin.com/in/anup-kumar-keshan-3350b435/" target="_blank" rel="noopener" aria-label="Visit Anup Kumar Keshan on LinkedIn"></a>
+      <div class="channel-icon linkedin">
+        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.063 2.063 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </div>
+      <div class="channel-body">
+        <div class="channel-head">
+          <span class="channel-name">LinkedIn (Anup)</span>
+          <span class="channel-handle">in/anup-kumar-keshan-3350b435</span>
+        </div>
+        <div class="channel-snippet">
+          <ul>
+            <li>Your TTW contact page lists you as <em>"CEO, Founder &amp; Editor-in-Chief,"</em> and your byline runs across the site every day. Your name is the recurring editorial voice on TTW's signature pieces, including the Top 50 Global Travel Destinations for 2026, the visa-policy commentary, and the destination rankings.</li>
+            <li>That editorial voice rarely appears on camera. The interview videos on YouTube put other industry leaders in front of the camera. You write the story in print, but you have not yet appeared on screen for the brand.</li>
+          </ul>
+          <a class="source-link" href="https://www.travelandtourworld.com/contact/" target="_blank" rel="noopener">travelandtourworld.com/contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="channel-card">
+      <a class="channel-link" href="https://www.linkedin.com/company/travel-and-tour-world/" target="_blank" rel="noopener" aria-label="Visit Travel and Tour World on LinkedIn"></a>
+      <div class="channel-icon linkedin">
+        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.063 2.063 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </div>
+      <div class="channel-body">
+        <div class="channel-head">
+          <span class="channel-name">LinkedIn (Company)</span>
+          <span class="channel-handle">company/travel-and-tour-world</span>
+        </div>
+        <div class="channel-snippet">
+          <ul>
+            <li>26,683 followers. About line: <em>"TTW is an all-inclusive B2B travel news website and magazine."</em> The follower base is one of the larger B2B travel-media communities on LinkedIn.</li>
+            <li>The feed is mostly link-out cards to articles on travelandtourworld.com. There is no recurring video format here. Long-form video that already lives on YouTube does not get repurposed into a LinkedIn-native cut.</li>
+          </ul>
+          <a class="source-link" href="https://www.linkedin.com/company/travel-and-tour-world/" target="_blank" rel="noopener">linkedin.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="channel-card">
+      <a class="channel-link" href="https://x.com/ttw_digital" target="_blank" rel="noopener" aria-label="Visit TTW on X"></a>
+      <div class="channel-icon twitter">
+        <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </div>
+      <div class="channel-body">
+        <div class="channel-head">
+          <span class="channel-name">X</span>
+          <span class="channel-handle">@ttw_digital</span>
+        </div>
+        <div class="channel-snippet">
+          <ul>
+            <li>Profile name <em>"TTW Digital."</em> The handle is active and the bio carries the TTW positioning. X gates follower counts behind login, so a real engagement read takes a logged-in pass.</li>
+            <li>Same pattern as LinkedIn. The feed is mostly links out to articles, and there is no recurring video series on the account.</li>
+          </ul>
+          <a class="source-link" href="https://x.com/ttw_digital" target="_blank" rel="noopener">x.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="channel-card">
+      <a class="channel-link" href="https://www.instagram.com/travelandtourworld/" target="_blank" rel="noopener" aria-label="Visit Travel and Tour World on Instagram"></a>
+      <div class="channel-icon instagram">
+        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+      </div>
+      <div class="channel-body">
+        <div class="channel-head">
+          <span class="channel-name">Instagram</span>
+          <span class="channel-handle">@travelandtourworld</span>
+        </div>
+        <div class="channel-snippet">
+          <ul>
+            <li>Account is active under the brand name. Instagram gates the public follower view without login, so we did not pull a count.</li>
+            <li>None of the YouTube interview footage is being cut into vertical Reels here. The same shoot that produces a five-minute horizontal interview could yield three 45-second vertical clips, but that has not been done.</li>
+          </ul>
+          <a class="source-link" href="https://www.instagram.com/travelandtourworld/" target="_blank" rel="noopener">instagram.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="channel-card">
+      <a class="channel-link" href="https://www.facebook.com/ttwemagazine" target="_blank" rel="noopener" aria-label="Visit Travel and Tour World on Facebook"></a>
+      <div class="channel-icon facebook">
+        <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </div>
+      <div class="channel-body">
+        <div class="channel-head">
+          <span class="channel-name">Facebook</span>
+          <span class="channel-handle">/ttwemagazine</span>
+        </div>
+        <div class="channel-snippet">
+          <ul>
+            <li>The page is active under TTW Emagazine. Facebook blocks unauthenticated counts, so this is a name and link confirmation rather than an engagement read.</li>
+            <li>An indexed post quotes you directly as <em>"TTW Founder and Editor-in-Chief Anup Kumar Keshan"</em> on the international travel sector. The founder voice that LinkedIn and YouTube do not yet feature on camera shows up in your Facebook captions.</li>
+          </ul>
+          <a class="source-link" href="https://www.facebook.com/ttwemagazine" target="_blank" rel="noopener">facebook.com</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="rule-orange"/>
+
+  <!--
+    REWRITE PER PROSPECT — Section 01, The Reel.
+      - Section name: "The {{BRAND}} Reel" ("Reel" is fine — industry term).
+      - 5-7 reel cards, each a specific, fact-checked observation from a real
+        public surface. The last card can span full width with
+        style="grid-column:1/-1".
+      - CEO TEMPLATE: founder-voice cards are welcome here (a founder reel,
+        the founder's LinkedIn About in their own words) alongside the
+        company-level cards.
+      - Plain language. No metaphors. No staccato runs.
+  -->
+  <div class="section-intro" id="sec-reel">
+    <div class="section-intro-row">
+      <span class="sec-pill-orange">01</span>
+      <span class="section-eyebrow">The TTW Reel</span>
+    </div>
+    <h2 class="section-title">A Look At What's Already In Public</h2>
+    <p class="section-subtitle">A few specifics from across TTW's public surfaces, with an honest read on each.</p>
+  </div>
+
+  <div class="reel-grid">
+
+    <div class="reel-card">
+      <div class="reel-eyebrow">The Mission Line</div>
+      <div class="reel-title">"Voice Of Travel And The People Behind It"</div>
+      <div class="reel-body">The About Us page states the purpose directly: <em>"Our purpose is to serve the entire travel ecosystem... from the professional to the passionate traveler. It is this unwavering commitment that establishes TTW as the 'Voice of travel and the people behind it.'"</em> The second half of that line, the people behind travel, is the part long-form video would focus on.</div>
+      <a class="source-link" href="https://www.travelandtourworld.com/about-us/" target="_blank" rel="noopener">travelandtourworld.com/about-us</a>
+    </div>
+
+    <div class="reel-card">
+      <div class="reel-eyebrow">The Flagship Ranking</div>
+      <div class="reel-title">TTW Top 50 Global Travel Destinations For 2026</div>
+      <div class="reel-body">TTW's annual Top 50 ranking spans six continents and more than 40 regions. Asia leads with Japan; Europe carries Ireland, France, Italy, Spain, and others; North America fields Canada, Mexico, and the United States. Your framing line: <em>"This ranking is both a reflection of traveler sentiment and a roadmap for the global tourism industry."</em> Right now the ranking lives as a list article. It has not been put on film.</div>
+      <a class="source-link" href="https://www.travelandtourworld.com/news/article/ttw-reveals-top-50-countries-of-the-world-as-best-travel-destinations-for-2026/" target="_blank" rel="noopener">travelandtourworld.com</a>
+    </div>
+
+    <div class="reel-card">
+      <div class="reel-eyebrow">The YouTube Engine</div>
+      <div class="reel-title">1.9K Videos, ~3 New Uploads A Day</div>
+      <div class="reel-body">The TTW YouTube channel has been running since July 2011 and now publishes around three videos every day. 30 uploads went up in the last 11 days, almost all of them two- to seven-minute talking-head interviews with named industry figures. The volume is real. What is keeping the per-video reach low is the format, not the cadence.</div>
+      <a class="source-link" href="https://www.youtube.com/@TravelAndTourWorld/videos" target="_blank" rel="noopener">youtube.com</a>
+    </div>
+
+    <div class="reel-card">
+      <div class="reel-eyebrow">The Per-Video Reality</div>
+      <div class="reel-title">22 To 107 Views, On 19.2K Subscribers</div>
+      <div class="reel-body">A sample across recent uploads: a Pattaya marina interview from yesterday sits at 47 views, a Barcelona winery interview from three weeks ago at 50, a short-term-rentals interview from 11 days ago at 22, and a Barcelona luxury-shopping interview from 16 days ago at 107. With a 19.2K subscriber base, the gap between subscriber count and per-video reach is the single most striking pattern in the public footprint.</div>
+      <a class="source-link" href="https://www.youtube.com/@TravelAndTourWorld/videos" target="_blank" rel="noopener">youtube.com</a>
+    </div>
+
+    <div class="reel-card">
+      <div class="reel-eyebrow">The Editorial Bench</div>
+      <div class="reel-title">CEO, Founder &amp; Editor-In-Chief · Plus A Senior Editor</div>
+      <div class="reel-body">The TTW contact page lists you as <em>"CEO, Founder &amp; Editor-in-Chief"</em> and Apratim Ghoshal as <em>"Vice President &amp; Senior Editor."</em> Your name carries the editorial byline across the site. On YouTube, the people in front of the camera are other industry leaders, not you.</div>
+      <a class="source-link" href="https://www.travelandtourworld.com/contact/" target="_blank" rel="noopener">travelandtourworld.com/contact</a>
+    </div>
+
+    <div class="reel-card">
+      <div class="reel-eyebrow">The Event Network</div>
+      <div class="reel-title">ITB Berlin · WTM London · IMEX Las Vegas · IGLTA</div>
+      <div class="reel-body">The Clients page lists more than 80 international travel trade events as TTW partners: ITB Berlin, WTM London, FITUR Madrid, IBTM World Barcelona, IMEX America in Las Vegas, IGLTA in Fort Lauderdale, ITB Asia, ABAV São Paulo, and dozens more. That partnership network is where TTW's correspondents already get the access that produces the interviews.</div>
+      <a class="source-link" href="https://www.travelandtourworld.com/clients/" target="_blank" rel="noopener">travelandtourworld.com/clients</a>
+    </div>
+
+    <div class="reel-card" style="grid-column:1/-1">
+      <div class="reel-eyebrow">The Two Offices</div>
+      <div class="reel-title">Kolkata Headquarters · New York Correspondent</div>
+      <div class="reel-body">The contact page lists the head office at S-303 Ideal Plaza, Sarat Bose Road, Kolkata 700020, and a USA correspondent office at 244 5th Avenue, Suite 2468, New York, NY 10001. TTW is set up to cover the global B2B travel industry from both an Asian and a North American base. The video output does not yet make full use of having both.</div>
+      <a class="source-link" href="https://www.travelandtourworld.com/contact/" target="_blank" rel="noopener">travelandtourworld.com/contact</a>
+    </div>
+
+  </div>
+
+  <hr class="rule-orange"/>
+
+  <!--
+    REWRITE PER PROSPECT — Section 02, The Equity You've Built.
+      - Three short paragraphs, each opening with a bold "X equity." label
+        (Operator equity / Voice equity / Cultural equity work for most
+        services firms; adjust the labels if a clearer set fits).
+      - Then a closing paragraph that names the gap and points forward.
+      - Ground every claim in a fact-checked specific. Plain language.
+  -->
+  <div class="section-intro" id="sec-equity">
+    <div class="section-intro-row">
+      <span class="sec-pill-orange">02</span>
+      <span class="section-eyebrow">The Equity You've Built</span>
+    </div>
+    <h2 class="section-title">Three Strengths Already In Place</h2>
+    <p class="section-subtitle">All three are earned, all three are working. Any new video would build on what's already here.</p>
+  </div>
+
+  <div class="section-block">
+    <p><strong>Editorial equity.</strong> TTW publishes new news every day across travel, tourism, airline, cruise, hotel, MICE, and tech, in 104 regional editions reaching more than 15 million readers worldwide. Your byline as CEO and Editor-in-Chief sits at the top of the signature pieces, including the Top 50 Global Travel Destinations for 2026, the visa-policy commentary, and the destination rankings. That is a real point of view at scale, not a service page.</p>
+    <p><strong>Access equity.</strong> TTW partners with more than 1,200 international travel events and trade shows, including ITB Berlin, WTM London, FITUR Madrid, IBTM World Barcelona, IMEX America in Las Vegas, and IGLTA in Fort Lauderdale. That network puts TTW correspondents in the same room as tourism ministers, hotel CEOs, airline executives, and destination marketing leaders. The interview footage already coming off that access proves the access works.</p>
+    <p><strong>Output equity.</strong> The YouTube channel has been running since July 2011, holds 1.9K videos and 19.2K subscribers, and is currently publishing around three videos a day. The same shoots get repurposed into multiple language editions. The team to commission, shoot, edit, and ship video at high volume is in place. That is the hardest thing to build, and TTW already has it.</p>
+    <p>The one thing missing from the public presence is long-form video that earns the views TTW's editorial authority should be getting. Recent uploads are landing at 22 to 107 views each on a 19.2K-subscriber channel, and that gap is a format problem, not a craft problem. What would close it is documentary treatment of the stories TTW already covers. That is what the Legendeering framework is built around.</p>
+  </div>
+
+  <hr class="rule-orange"/>
+
+  <!--
+    LOCKED — Section 03, the Legendeering framework. Do NOT edit the
+    framework text or the five directives. The ONLY line to rewrite is the
+    last paragraph: name what the prospect is expert in, and what Talex
+    would add. Keep that line plain (no "layer," no "ride on," no metaphors).
+  -->
+  <div class="section-intro" id="sec-strategy">
+    <div class="section-intro-row">
+      <span class="sec-pill-orange">03</span>
+      <span class="section-eyebrow">Lead With Value</span>
+    </div>
+    <h2 class="section-title">The Legendeering Framework, In One Page</h2>
+    <p class="section-subtitle">The methodology behind every Talex production. Five directives, one core principle.</p>
+  </div>
+
+  <div class="section-block">
+    <p>Legendeering is Talex's proprietary strategy. The core principle is straightforward: lead with value, always. The brand earns trust by giving without expectation, and that trust grows over time because people keep choosing to watch.</p>
+    <p>Five directives drive it:</p>
+    <ul style="list-style:none;padding:0;margin:0.5rem 0 1rem">
+      <li style="position:relative;padding-left:16px;margin-bottom:7px;font-size:14px;line-height:1.7;color:var(--txt2)"><span style="position:absolute;left:4px;top:-1px;color:var(--o);font-weight:700;font-size:18px;line-height:1">·</span><strong style="color:var(--txt);font-weight:500">Give Without Expectation.</strong> Value delivered without strings. The kind of generosity that builds loyalty money cannot buy.</li>
+      <li style="position:relative;padding-left:16px;margin-bottom:7px;font-size:14px;line-height:1.7;color:var(--txt2)"><span style="position:absolute;left:4px;top:-1px;color:var(--o);font-weight:700;font-size:18px;line-height:1">·</span><strong style="color:var(--txt);font-weight:500">Be Relentlessly Authentic.</strong> Say true things. Show real work. Speak like a human being.</li>
+      <li style="position:relative;padding-left:16px;margin-bottom:7px;font-size:14px;line-height:1.7;color:var(--txt2)"><span style="position:absolute;left:4px;top:-1px;color:var(--o);font-weight:700;font-size:18px;line-height:1">·</span><strong style="color:var(--txt);font-weight:500">It's Not About You. It's About Them.</strong> The audience has to come first. It's all about their wants and needs and making something they will choose to watch.</li>
+      <li style="position:relative;padding-left:16px;margin-bottom:7px;font-size:14px;line-height:1.7;color:var(--txt2)"><span style="position:absolute;left:4px;top:-1px;color:var(--o);font-weight:700;font-size:18px;line-height:1">·</span><strong style="color:var(--txt);font-weight:500">Start With Story, Follow With Facts.</strong> Story gives information shape, context, and emotional weight. Facts alone rarely move people.</li>
+      <li style="position:relative;padding-left:16px;margin-bottom:7px;font-size:14px;line-height:1.7;color:var(--txt2)"><span style="position:absolute;left:4px;top:-1px;color:var(--o);font-weight:700;font-size:18px;line-height:1">·</span><strong style="color:var(--txt);font-weight:500">Consistency Is Key.</strong> Trust is built in moments, repeated over time.</li>
+    </ul>
+    <p>TTW is the editorial authority on the global travel industry, with the access and the bench to prove it. Talex would add the long-form video: documentary films built on the stories TTW already covers. The three ideas below are what that looks like for a media platform at TTW's scale.</p>
+  </div>
+
+  <!-- LOCKED — credentials row. Do not edit. -->
+  <div class="cred-row">
+    <span class="cred-chip">2x Emmy Nominated</span>
+    <span class="cred-chip">25 Years Production</span>
+    <span class="cred-chip">100+ Hours Distributed Globally</span>
+    <span class="cred-chip">BBC · NBC · Discovery · ABC · Netflix</span>
+  </div>
+
+  <hr class="rule-orange"/>
+
+  <!--
+    REWRITE PER PROSPECT — Section 04, the three concepts.
+    Every idea must pass the four tests (audience-first, entertaining,
+    standalone, novel). See audit_video_ideas_rules.
+    CEO TEMPLATE: the founder can be the recurring on-camera guide across
+    the concepts. But idea 01 still leads with a CLIENT or the AUDIENCE as
+    the protagonist, with the founder as the guide — not a film whose only
+    subject is the founder. For B2B prospects with institutional clients,
+    put the prospect's CLIENT on camera as protagonist (see
+    audit_ideas_client_as_protagonist).
+    Idea 01 gets the idea-card-featured class. Each idea is one short
+    paragraph. No runtime / episode-count / distribution specs.
+  -->
+  <div class="section-intro" id="sec-worlds">
+    <div class="section-intro-row">
+      <span class="sec-pill-orange">04</span>
+      <span class="section-eyebrow">Three Concepts For TTW</span>
+    </div>
+    <h2 class="section-title">Three Long-Form Concepts For The TTW Brand</h2>
+    <p class="section-subtitle">Each one builds on equity TTW has already earned. Each one is something only TTW could make.</p>
+  </div>
+
+  <div class="ideas-grid">
+
+    <div class="idea-card idea-card-featured">
+      <div class="idea-num">01</div>
+      <div class="idea-body">
+        <div class="idea-title">"Inside The Comeback"</div>
+        <div class="idea-desc">A returning documentary series that follows one tourism board, destination, or hospitality brand through a real change moment as it unfolds: a post-crisis tourism reopening, a new visa regime, a flagship resort launch, a sustainability pivot. The destination's CEO or minister tells the story in their own words from inside the moment, and you appear as the Editor-in-Chief framing why it matters for the wider global industry. Each film doubles as a portfolio piece TTW's partner can use on their own channels, and as a documentary the TTW community will choose to watch.</div>
+      </div>
+    </div>
+
+    <div class="idea-card">
+      <div class="idea-num">02</div>
+      <div class="idea-body">
+        <div class="idea-title">"The TTW Top 50, On Film"</div>
+        <div class="idea-desc">TTW's annual Top 50 Global Travel Destinations ranking is currently a list article. Turn it into an annual documentary mini-series. Each season picks three to five destinations from that year's Top 50 and treats them as proper short-form films: the local industry, the policy moves, the operators on the ground, the traveler experience. The list already has the data. The films would put the ranking on screen, and give TTW a flagship annual release the rest of the year's coverage can refer back to.</div>
+      </div>
+    </div>
+
+    <div class="idea-card">
+      <div class="idea-num">03</div>
+      <div class="idea-body">
+        <div class="idea-title">"Across The Floor"</div>
+        <div class="idea-desc">TTW already organizes show coverage into per-event YouTube playlists. There is one playlist for ITB Berlin 2026, one for IMEX, one for SATTE, one for AIME, and so on, each holding many short interview clips. The proposal is to add one eight-to-twelve-minute documentary short per event that weaves the two or three strongest stories from that show into a single film: a destination breakthrough, a new technology, a hospitality innovation. The interview clips stay where they are. The documentary short becomes the headline asset from each event, and earns the watch time the clip format does not.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="rule-orange"/>
+
+  <!-- LOCKED — Section 05, Past Talex Films. The three case studies are
+       verbatim. Do not edit. (Reorder the three if a different one is more
+       relevant to the prospect's industry, but do not rewrite the copy.) -->
+  <div class="section-intro" id="sec-films">
+    <div class="section-intro-row">
+      <span class="sec-pill-dark">05</span>
+      <span class="section-eyebrow">A Few Films Talex Has Made</span>
+    </div>
+    <h2 class="section-title">Three Projects Across Three Industries</h2>
+    <p class="section-subtitle">Same craft, same methodology, three very different jobs.</p>
+  </div>
+
+  <div class="case-card">
+    <div class="cs-label">Case Study 01 · Enterprise</div>
+    <div class="cs-name">Resorts World New York City</div>
+    <div class="cs-stat-strip">
+      <div class="cs-stat-cell">
+        <div class="cs-stat-num">$5.5B</div>
+        <div class="cs-stat-label">Site development investment</div>
+      </div>
+      <div class="cs-stat-cell">
+        <div class="cs-stat-num">10+</div>
+        <div class="cs-stat-label">Video pieces produced</div>
+      </div>
+      <div class="cs-stat-cell">
+        <div class="cs-stat-num">Dec '25</div>
+        <div class="cs-stat-label">Gaming license awarded</div>
+      </div>
+    </div>
+    <div class="cs-section">
+      <div class="cs-section-label">The Challenge</div>
+      <div class="cs-section-body">In 2025, Resorts World International launched a high-stakes public campaign to secure a New York City commercial gaming license and advance their $5.5B investment to transform their existing casino at Aqueduct Racetrack into a full-scale integrated resort. Their communications needed to be credible, compelling, and precise.</div>
+    </div>
+    <div class="cs-section">
+      <div class="cs-section-label">The Approach</div>
+      <div class="cs-section-body">Talex Media produced more than 10 distinct pieces of video content spanning community impact narratives, stakeholder communications, and public-facing advocacy. Each piece was built on a story-first foundation designed to move people, not just inform them.</div>
+    </div>
+    <div class="cs-section">
+      <div class="cs-section-label">The Result</div>
+      <div class="cs-section-body">On December 15, 2025, the NY State Gaming Commission awarded Resorts World NYC one of only three downstate commercial gaming licenses. Talex Media's content supported one of the most consequential licensing decisions in NYC's recent history.</div>
+    </div>
+    <div class="cs-footer-meta">NYC Gaming License Awarded Dec 15, 2025 · 10+ Videos Produced · $5.5B Investment · Spring 2026 Opening</div>
+  </div>
+
+  <div class="case-card">
+    <div class="cs-label">Case Study 02 · Growth Brand</div>
+    <div class="cs-name">Sobo & Sobo LLP</div>
+    <div class="cs-stat-strip">
+      <div class="cs-stat-cell">
+        <div class="cs-stat-num">2020</div>
+        <div class="cs-stat-label">Partnership begin date</div>
+      </div>
+      <div class="cs-stat-cell">
+        <div class="cs-stat-num">7</div>
+        <div class="cs-stat-label">States with Sobo offices</div>
+      </div>
+      <div class="cs-stat-cell">
+        <div class="cs-stat-num">5+</div>
+        <div class="cs-stat-label">Years of ongoing campaigns</div>
+      </div>
+    </div>
+    <div class="cs-section">
+      <div class="cs-section-label">The Challenge</div>
+      <div class="cs-section-body">In 2020, Sobo & Sobo, a New York-based personal injury law firm, engaged Talex Media. They needed commercial video campaigns that could anchor their brand, differentiate them in a competitive legal market, and fuel their growth ambitions across new markets.</div>
+    </div>
+    <div class="cs-section">
+      <div class="cs-section-label">The Approach</div>
+      <div class="cs-section-body">Since 2020, Talex Media has produced all of Sobo & Sobo's commercial video campaigns, an ongoing, multi-year embedded partnership bringing brand consistency, strategic communication, and production quality to every new market they enter.</div>
+    </div>
+    <div class="cs-section">
+      <div class="cs-section-label">The Result</div>
+      <div class="cs-section-body">Since the partnership began, Sobo & Sobo has grown from a NY-focused firm into a multi-state legal practice with offices in NY, CT, NJ, IL, OH, PA, and WI. Talex Media's campaigns have accompanied every stage of that expansion.</div>
+    </div>
+    <div class="cs-footer-meta">5+ Year Partnership · All Commercial Campaigns · 7 States: NY, CT, NJ, IL, OH, PA, WI</div>
+  </div>
+
+  <div class="case-card">
+    <div class="cs-label">Case Study 03 · Nonprofit</div>
+    <div class="cs-name">Elizabeth Seton Children's</div>
+    <div class="cs-stat-strip">
+      <div class="cs-stat-cell">
+        <div class="cs-stat-num">96</div>
+        <div class="cs-stat-label">Beds in new young adult center</div>
+      </div>
+      <div class="cs-stat-cell">
+        <div class="cs-stat-num">$156M</div>
+        <div class="cs-stat-label">Project investment</div>
+      </div>
+      <div class="cs-stat-cell">
+        <div class="cs-stat-num">2025</div>
+        <div class="cs-stat-label">Year of groundbreaking</div>
+      </div>
+    </div>
+    <div class="cs-section">
+      <div class="cs-section-label">The Challenge</div>
+      <div class="cs-section-body">In 2020, Elizabeth Seton Children's launched a capital campaign to fund a $156 million young adult care facility for patients aging out of their pediatric program. They needed video content that would inspire donors, communicate urgency, and sustain momentum across a multi-year campaign.</div>
+    </div>
+    <div class="cs-section">
+      <div class="cs-section-label">The Approach</div>
+      <div class="cs-section-body">Talex Media produced multiple pieces of informational, inspirational, and commercial fundraising content across the campaign lifecycle. Each piece was designed to give donors a genuine connection to the mission and the people it serves, not just a request for money.</div>
+    </div>
+    <div class="cs-section">
+      <div class="cs-section-label">The Result</div>
+      <div class="cs-section-body">In August 2025, Elizabeth Seton Children's broke ground on their new 96-bed young adult center in White Plains, NY, the first standalone facility of its kind in the United States, providing care for young adults aged 18 to 35 with complex medical needs. The facility is expected to open in January 2028.</div>
+    </div>
+    <div class="cs-footer-meta">First standalone young adult complex-care facility in the U.S. · 96 beds · $156M · Groundbreaking Aug 2025</div>
+  </div>
+
+  <!-- LOCKED — credentials row. Do not edit. -->
+  <div class="cred-row">
+    <span class="cred-chip">2x Emmy Nominated</span>
+    <span class="cred-chip">25 Years Experience</span>
+    <span class="cred-chip">100+ Hours Distributed Globally</span>
+    <span class="cred-chip">BBC · Discovery · NBC Universal</span>
+  </div>
+
+  <hr class="rule-orange"/>
+
+  <!-- LOCKED — CTA block. Do not edit. (audit_cta_defaults, locked 2026-05-07) -->
+  <div class="cta-block">
+    <div class="cta-eyebrow">An Intro Call With Our Team</div>
+    <h2 class="disp cta-headline">Let's Connect</h2>
+    <p class="cta-sub">A short call to walk through what's in this audit, answer whatever you want to ask, and find out whether there's a fit. Nothing is sold on the call.</p>
+    <a class="cta-primary" href="https://calendly.com/d/ct7b-xvd-c9x/intro-call" target="_blank" rel="noopener">Book A Call With Our Team →</a>
+    <div class="cta-reply">Or just reply on LinkedIn and tell me what you actually thought. Happy to send you a copy of <em>Legendeering</em> if you'd like to read the longer version of the philosophy in section 03.</div>
+  </div>
+
+  <hr class="rule-orange"/>
+
+  <!-- LOCKED — FAQ. Verbatim across every audit. The ONLY substitution
+       allowed is {{BRAND}} in the answer to "How custom is this audit?"
+       (audit_faq_locked rule). -->
+  <div class="section-intro" id="sec-faq">
+    <div class="section-intro-row">
+      <span class="sec-pill-dark">FAQ</span>
+      <span class="section-eyebrow">A Few Questions You Might Have</span>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">What does a call with you look like?</div>
+    <div class="faq-a">Fifteen minutes. We walk through this document, I answer whatever you want to ask, and we find out if there's a fit. Nothing is sold on the call.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">How custom is this audit?</div>
+    <div class="faq-a">Everything in this document is based on your actual public presence. I don't send the same deck to different companies, this one was prepared specifically for Travel and Tour World.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">What happens after the call?</div>
+    <div class="faq-a">If there's a fit, we send a formal proposal tailored to your team, your community, and the goals you described. If not, you leave with a clearer picture of your content opportunity and I wish you well.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">How is your approach different from a typical video agency?</div>
+    <div class="faq-a">We start with the community, not the camera. Before any production decision, we map who you're speaking to, what they need from you, and what shift we're trying to produce in them. Format and craft follow from there.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">We already have a marketing team. Why should we work with Talex?</div>
+    <div class="faq-a">Perfect, that's actually how we prefer to work. Talex Media isn't a marketing agency. We're a video production company in the documentary and broadcast tradition. A strong marketing team brings audience clarity, channel strategy, and distribution. We bring the films that give them something worth distributing: customer hero pieces, episodic series, founder content built to a broadcast standard.</div>
+  </div>
+
+  <!-- LOCKED — footer. Swap only {{BRAND}} and the month/year. -->
+  <footer class="site-footer">
+    <span class="footer-brand">Talex Media</span>
+    <div class="footer-links">
+      <a href="https://www.talexmedia.com" target="_blank">talexmedia.com</a>
+      <a href="mailto:solutions@talexmedia.com">solutions@talexmedia.com</a>
+      <a href="https://calendly.com/d/ct7b-xvd-c9x/intro-call" target="_blank">Book a Call</a>
+    </div>
+    <div class="footer-copy">© 2026 Talex Media LLC · A Custom Strategy prepared for Travel and Tour World · May 2026</div>
+  </footer>
+
+</div>
+
+<!-- LOCKED — iframe-height script. Do not edit. -->
+<script>
+function poke(){
+  try { window.parent.postMessage({ type:"wix-iframe-height", height: document.documentElement.scrollHeight }, "*"); } catch(e){}
+}
+window.addEventListener("load", function(){
+  if (window.ResizeObserver) new ResizeObserver(poke).observe(document.body);
+  poke();
+});
+</script>
+
+</body>
+</html>
